@@ -110,3 +110,8 @@ fread.close()
 # fread = open(filename, "wb")
 # pickle.dump(stock_acer, fread)
 # fread.close()
+
+#-----------------------BUG FIXING-------------------------------------
+#from datetime import datetime
+#dt = datetime(2015, 4, 19, 12, 20)
+#print(dt.strftime('%Y/%m/%d'))
